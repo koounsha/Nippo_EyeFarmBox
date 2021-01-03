@@ -8,11 +8,10 @@
          ,"priority" : 2
          ,"ip_address" : "192.168.10.111"
   }
-  ,"SHT31" : {
+  ,"test" : {
          "load" : false
          ,"interval_second" : 10
-         ,"sda" : 21
-         ,"scl" : 22
+           
   }
 
 
