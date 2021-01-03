@@ -1,0 +1,19 @@
+{
+"CCM":{
+         "name" : "Senser"
+         ,"type" : "cMC"
+         ,"room" : 1
+         ,"region" : 4
+         ,"order" : 1
+         ,"priority" : 2
+         ,"ip_address" : "192.168.10.111"
+  }
+  ,"SHT31" : {
+         "load" : false
+         ,"interval_second" : 10
+         ,"sda" : 21
+         ,"scl" : 22
+  }
+
+
+}
