@@ -60,7 +60,7 @@ while True:
     co2  = round(int(float(l[18])),2)
     insolation = (int(float(l[29])))
    
-  if tmp0>0 and tmp0>0 and hd>0 and dew>0 and sv>0 and ah>0 and co2>0:
+    # if tmp0>0 and tmp0>0 and hd>0 and dew>0 and sv>0 and ah>0 and co2>0:
     d = {'_nippo_temp0': tmp0, '_nippo_temp1': tmp1, '_nippo_hum':hum ,'_nippo_hd':hd ,'_nippo_dew':dew ,'_nippo_sv':sv ,'_nippo_ah':ah ,'_nippo_co2':co2 ,'_nippo_insolation':insolation}
     
     for k, v in d.items():
